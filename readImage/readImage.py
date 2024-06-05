@@ -1,7 +1,8 @@
 import cv2 as cv
 
 #reading the image into the var img 
-img = cv.imread('Photos/cat.jpg')
+img = cv.imread('cat.jpg',0)
+
 '''
 -the image goes offscreen 
 this line will display the large image, but opencv does not have a way to rescale the image to suit the dimensions 
